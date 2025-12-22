@@ -2,7 +2,7 @@
 
 A 3D DICOM viewer for visualizing and analyzing CT scans from archaeological mass grave excavations. Built for forensic research and documentation purposes.
 
-## ⚠️ Important: Data Not Included
+## Important: Data Not Included
 
 **All personal and sensitive data has been removed from this repository.** This includes all DICOM scans, medical imaging files, and any identifying information.
 
@@ -46,14 +46,14 @@ MassGravesProject/
 
 Each body has its own folder. To use a dataset, place the original CD/DVD contents in the corresponding folder:
 
-| Folder | Description |
-|--------|-------------|
+| Folder        | Description               |
+| ------------- | ------------------------- |
 | `2021.003/` | Body 1 - Original dataset |
-| `2021.013/` | Body 2 |
-| `2021.014/` | Body 3 |
-| `2021.020/` | Body 4 |
-| `2021.021/` | Body 5 |
-| `2021.022/` | Body 6 |
+| `2021.013/` | Body 2                    |
+| `2021.014/` | Body 3                    |
+| `2021.020/` | Body 4                    |
+| `2021.021/` | Body 5                    |
+| `2021.022/` | Body 6                    |
 
 Each folder should contain a `DICOM/` subfolder with the raw scan files.
 
@@ -79,4 +79,3 @@ pip install -r MassGravesProject/requirements.txt
 - DICOM data is not included in the repository (too large, and contains sensitive medical imaging)
 - Segmentation data was generated using MONAI
 - The `.nrrd` files in `DICOM_upper_body/` were used as input for the segmentation pipeline
-
