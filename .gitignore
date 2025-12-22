@@ -1,0 +1,32 @@
+# DICOM data folders (large medical imaging files - PRIVATE)
+2021.003/DICOM/
+2021.003/DICOM_lower_body/
+2021.003/DICOM_upper_body/*
+!2021.003/DICOM_upper_body/3 CAP w-o  5.0  B31f segmentation.nrrd
+2021.003/DICOM_combined_fullbody/*
+2021.003/DICOMFULLBODY/
+2021.003/2021.*/
+
+# Any DICOM files anywhere
+*.dcm
+DICOMDIR
+
+# NRRD segmentation files (large)
+*.nrrd
+!2021.003/DICOM_upper_body/3 CAP w-o  5.0  B31f segmentation.nrrd
+
+# Large numpy files (segmentations)
+*.npy
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
