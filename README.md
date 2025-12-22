@@ -2,6 +2,14 @@
 
 A 3D DICOM viewer for visualizing and analyzing CT scans from archaeological mass grave excavations. Built for forensic research and documentation purposes.
 
+## ⚠️ Important: Data Not Included
+
+**All personal and sensitive data has been removed from this repository.** This includes all DICOM scans, medical imaging files, and any identifying information.
+
+To use this project, you'll need to provide your own DICOM data. Place the files in the appropriate body folders (see structure below).
+
+> **For Dr. Belleman:** If you don't have access to the original datasets, please contact us and we can arrange secure data transfer.
+
 ## Quick Start
 
 ```bash
