@@ -63,7 +63,7 @@ Each folder should contain a `DICOM/` subfolder with the raw scan files.
 - **Orthogonal Views** - Axial, sagittal, and coronal slice navigation
 - **Maximum Intensity Projection (MIP)** - For vascular and bone visualization
 - **3D Surface Reconstruction** - Isosurface extraction for 3D models
-- **Segmentation Overlays** - Aorta and bone highlighting (Body 1 only)
+- **Segmentation Overlays** - Aorta and bone highlighting (We implemented this on body 1 only)
 
 ## Requirements
 
