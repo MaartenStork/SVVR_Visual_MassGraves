@@ -77,5 +77,5 @@ pip install -r MassGravesProject/requirements.txt
 ## Notes
 
 - DICOM data is not included in the repository (too large, and contains sensitive medical imaging)
-- Segmentation data was generated using MONAI
+- Segmentation data was generated using MONAI, not included for the same reasons listed above.
 - The `.nrrd` files in `DICOM_upper_body/` were used as input for the segmentation pipeline
